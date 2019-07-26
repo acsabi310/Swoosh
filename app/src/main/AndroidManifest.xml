@@ -9,10 +9,15 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".SkillActivity">
+        </activity>
+        <activity android:name=".BaseActivity">
+        </activity>
         <activity android:name=".LeagueActivity">
         </activity>
         <activity android:name=".WelcomeActivity">
-            <!-- ez a belépési pontja az app-nak, így adja meg-->
+
+            <!-- ez a belépési pontja az app-nak, így adja meg -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
