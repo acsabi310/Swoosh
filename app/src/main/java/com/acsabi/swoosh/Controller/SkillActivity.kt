@@ -1,7 +1,8 @@
-package com.acsabi.swoosh
+package com.acsabi.swoosh.Controller
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.acsabi.swoosh.Utilities.EXTRA_LEAGUE
+import com.acsabi.swoosh.R
 
 class SkillActivity : BaseActivity() {
 
